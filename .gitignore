@@ -1,0 +1,7 @@
+*~
+node_modules
+*.log
+.DS_Store
+myvenv
+.sass-cache
+config.rb

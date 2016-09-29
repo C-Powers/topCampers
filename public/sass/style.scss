@@ -1,0 +1,51 @@
+@import "compass/reset";
+@import "compass/css3";
+
+.app {
+  background-color: #bdc3c7;
+}
+
+.jumbotron {
+  background-color: #c0392b !important;
+  .container{
+    .btn {
+      background-color: #bdc3c7;
+      border: none;
+    }
+  }
+}
+
+.content {
+  background-color: #bdc3c7;
+  padding: 3em;
+  border-radius: 20px;
+  font-size: 1.75em;
+}
+
+.table-header {
+  font-weight: bold;
+  border-bottom: 2px solid #c0392b;
+}
+
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+.row-user {
+  @include flexbox((
+    display: flex,
+    flex-direction: row,
+    justify-content: space-between
+  ));
+  margin: 0 0 3em 0;
+  img {
+    width: 75px;
+    height: auto;
+    border-radius: 5px;
+  }
+  #{$a-tags} {
+    color: #c0392b;
+    text-decoration: none;
+  }
+  #{$a-tags-hover} {
+    color: #2c3e50;
+  }
+}
