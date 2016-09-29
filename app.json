@@ -1,0 +1,12 @@
+{
+  "name": "Top Campers",
+  "description": "React.js project on a FCC assignment",
+  "keywords": [ "react", "reactjs", "FreeCodeCamp" ],
+  "repository": "https://github.com/C-Powers/topCampers",
+  "logo": "https://facebook.github.io/react/img/logo.svg",
+  "website": "https://github.com/C-Powers/topCampers",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
